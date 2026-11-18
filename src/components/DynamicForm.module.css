@@ -1,0 +1,118 @@
+.registrationForm {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.registrationForm h2 {
+  font-size: 26px;
+  text-align: center;
+  margin: 0;
+  color: #26354a;
+}
+
+.registrationForm p {
+  color: #8492a6;
+  font-size: 14px;
+  text-align: center;
+  margin: -12px 0 8px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.formLabel {
+  font-size: 15px;
+  font-weight: 600;
+  color: #26354a;
+}
+
+.formInput {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 14px 15px;
+  background: #ffffff;
+  border: 1px solid #dce5f2;
+  border-radius: 9px;
+  font-size: 15px;
+  color: #26354a;
+}
+
+.formInput:focus {
+  border-color: #5485d5;
+}
+
+.formInput::placeholder {
+  color: #aab6c6;
+}
+
+.passwordInputWrapper {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.passwordInputWrapper .formInput {
+  width: 100%;
+  padding-right: 45px;
+}
+
+.passwordToggle {
+  position: absolute;
+  right: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #8492a6;
+  cursor: pointer;
+}
+
+.passwordToggle:hover {
+  color: #5485d5;
+}
+
+.passwordToggle svg {
+  width: 19px;
+  height: 19px;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #26354a;
+  cursor: pointer;
+}
+
+.formCheckbox {
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 9px;
+  background: #5485d5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background: #3f70c0;
+}
+
+.errorMessage {
+  color: #e44646;
+  font-size: 12px;
+}

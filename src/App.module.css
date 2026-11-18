@@ -1,0 +1,24 @@
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: #eaf2ff;
+}
+
+.formCard {
+  width: 100%;
+  max-width: 650px;
+  padding: 50px 55px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(65, 105, 160, 0.1);
+}
+
+.formCard h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0 0 28px;
+  color: #26354a;
+}
